@@ -2,20 +2,26 @@
 
 
 [[projects]]
+  name = "github.com/pelletier/go-buffruneio"
+  packages = ["."]
+  revision = "c37440a7cf42ac63b919c752ca73a85067e05992"
+  version = "v0.2.0"
+
+[[projects]]
+  name = "github.com/pelletier/go-toml"
+  packages = ["."]
+  revision = "5ccdfb18c776b740aecaf085c4d9a2779199c279"
+  version = "v1.0.0"
+
+[[projects]]
   branch = "master"
   name = "github.com/ryanuber/go-license"
   packages = ["."]
   revision = "9c9d2aca2d1a36bd73b496ebd2fd14fea6aca9a2"
 
-[[projects]]
-  branch = "v2"
-  name = "gopkg.in/yaml.v2"
-  packages = ["."]
-  revision = "cd8b52f8269e0feb286dfeef29f8fe4d5b397e0b"
-
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "ce7c4976e77bb66b60bd161eed541bcf43ec514692d8d1587b9ddc3233801997"
+  inputs-digest = "6bf3f62fb883d26781892cc42572463cc4a957a8e1032c59ea100aef37770046"
   solver-name = "gps-cdcl"
   solver-version = 1
